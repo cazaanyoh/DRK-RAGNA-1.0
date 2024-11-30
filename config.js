@@ -20,9 +20,9 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vakp0UnIC
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/vRR63CN.jpeg,https://i.imgur.com/ovCfp9J.jpeg,https://i.imgur.com/edzo5dj.jpeg";
 global.devs = "https://wa.me/50931461936 , https://wa.me/50931461936";
 global.sudo = process.env.SUDO || "50931461936";
-global.owner = process.env.OWNER_NUMBER || "PUT YOUR OWNER NUMBER";
+global.owner = process.env.OWNER_NUMBER || "50931461936";
 global.style = process.env.STYLE || "3";
-global.gdbye = process.env.GOODBYE || "false";
+global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
@@ -43,7 +43,7 @@ global.scan = "https://drk-tech-2.onrender.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "mettre votre session ici"
+  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWUIvTEluUHNjNjlGUjc1STcrcEYrdUN3U0xvRy8yYmdPNlVVNlpyUG1HVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaUNtZlZlSU9yM0oweHlvcVNpT1d3aWFYSll5WktkLzhXMnBqQzFOUzNXOD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPR2RuZ3RJQm9VMDY0L0hpU2hCNEZEVmY4VzgyU0p3cU5PaUU5bFllTEVrPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJRTlEzbWM1dG10NDhtckRmWU9KdDB5YXU3VmhTbWFVNWFpS2JLVExoVjNRPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImVPb1lBZlVtaGVETHlac3h3aldNeTZnTG1WV0hUcVJ4TFhPWHRUNjBmV1U9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InJKZDdSTUJlSVFybDhwbndLZDVwM1dIcElhT2NnZlJRS2F3YVNSOERBalk9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNlBZN0pDVzMxVythRkp0dGdqQ3pCMlpSQWVDbS9aTTBnRWhreVAvVUtXOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRmptWlUwNGxndDA4YjVMbkluVFExMHQ4cnVoMlV2RkxsYjI4eUJydEd4cz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im96MG00ekEvMzAwajE5dWplWGljckNsbDh6VE9hNG1QMVZmQUZiMnFBMUp1T2RicG5qYTVyQ3dHbTArSDNNZjlKQUswallqb3VKNnB2Z2NFU1A1MENBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTczLCJhZHZTZWNyZXRLZXkiOiJmbDFqaHVycjZOUG5LRWNNcmhZU3FxS1dUdEU1bnJiOU5OUHVwa2VBQ2ZFPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiIteFprTVg3SlFUNjM5aXIxcEhJVzB3IiwicGhvbmVJZCI6ImNlNmQ4YTE5LTliYmYtNDg1Mi05ZDhhLWYxOTNmYTk2MmQzOSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI3Q2xOdWgyVUFMSUtFYWpMRG1HaDJlR2FEWVU9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUitYUzZKYmxLVDVJQy9xOVdVSVkxNjkzdEZFPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IlFLU001MkFKIiwibWUiOnsiaWQiOiIyNTI2NzIzNTc1Mjc6MTZAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0lqcjdjVURFT0dzcmJvR0dDSWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IjU2dGRXTlVHQUVraVo4WEJkTGdwN2JpdXJBb3FHVjc4bHZhcFdiLzU3aWM9IiwiYWNjb3VudFNpZ25hdHVyZSI6Ijdlay9CK2lMMGY5WHdmRjRlVnkvdEpBYm95Rmd1S1JyaHN4U2g4QnlZdFp0ejlFdHprdkhHRDgxSVI0TmNGQzBadncxVk5KU3ZRMDhxQzI0NEpCbkJBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiIrNTVwQk1aRTBlaEVuMU9Sb2FpYjR0MTNSVjZLWHN2b1p1Uk01UnVsZTVJa0xpYWdjMC9HL2NYajJaRUlMVGlTeFhwSkd0WEErWVp2aHZsc28yQzdBQT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1MjY3MjM1NzUyNzoxNkBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJlZXJYVmpWQmdCSkltZkZ3WFM0S2UyNHJxd0tLaGxlL0piMnFWbS8rZTRuIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzMyOTkwNTc2LCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUhGciJ9"
 module.exports = {
   menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || ".",
@@ -64,7 +64,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "...d336",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
   LANG: (process.env.THEME || "STEN").toUpperCase(),
 };
 global.rank = "updated";
